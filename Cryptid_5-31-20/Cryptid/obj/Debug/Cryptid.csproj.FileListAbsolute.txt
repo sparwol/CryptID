@@ -1,0 +1,15 @@
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.Sirrus.resources
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.Login.resources
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.Properties.Resources.resources
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.csproj.GenerateResource.cache
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.csproj.CoreCompileInputs.cache
+C:\Users\snowman\source\repos\Cryptid\Cryptid\bin\Debug\Cryptid.exe.config
+C:\Users\snowman\source\repos\Cryptid\Cryptid\bin\Debug\Cryptid.exe
+C:\Users\snowman\source\repos\Cryptid\Cryptid\bin\Debug\Cryptid.pdb
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.exe
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.pdb
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.Forms.FormAes.resources
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.Forms.FormEllipticCurve.resources
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.Forms.FormTools.resources
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.Forms.FormTwofish.resources
+C:\Users\snowman\source\repos\Cryptid\Cryptid\obj\Debug\Cryptid.csprojAssemblyReference.cache

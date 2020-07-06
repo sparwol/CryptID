@@ -84,17 +84,13 @@ namespace Cryptid.Forms
                         using (ZipFile zip = ZipFile.Read(zipPath))
                         {
                             //zip.ExtractAll(extractPath, ExtractExistingFileAction.DoNotOverwrite);
-                            if (pass.Length > 3)
+                            foreach (ZipEntry entry in zip)
                             {
-                                foreach (ZipEntry entry in zip)
-                                {
-                                    entry.Encryption = EncryptionAlgorithm.WinZipAes256;
-                                    entry.ExtractWithPassword(extractPath, pass);
+                                entry.Encryption = EncryptionAlgorithm.WinZipAes256;
+                                entry.ExtractWithPassword(extractPath, pass);
                                     
-                                }
                             }
                         }
-
                     }
                     catch (Exception ex)
                     {

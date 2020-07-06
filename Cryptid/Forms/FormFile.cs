@@ -306,12 +306,15 @@ namespace Cryptid.Forms
                 { 
                     string[] files = e.Data.GetData(DataFormats.FileDrop) as string[]; // get all files droppeds  
                     if (files != null && files.Any())
-                    label5.Text = files.First();
-                    FileInfo fInfo = new FileInfo(label5.Text);
-                    // Pass the file name without the path.
-                    string name = fInfo.FullName;
-                    aesEncryptFile(name);
-                    MessageBox.Show(name + " was saved to " + EncrFolder);
+                    {
+                        label5.Text = files.First();
+                        FileInfo fInfo = new FileInfo(label5.Text);
+                        // Pass the file name without the path.
+                        string name = fInfo.FullName;
+                        aesEncryptFile(name);
+                        MessageBox.Show(name + " was encrypted to " + EncrFolder);
+                    }
+
                 }
                 catch (Exception ex)
                 {
@@ -342,13 +345,14 @@ namespace Cryptid.Forms
                 {
                     string[] files = e.Data.GetData(DataFormats.FileDrop) as string[]; // get all files droppeds  
                     if (files != null && files.Any())
-                    label5.Text = files.First();
-
-                    FileInfo fInfo = new FileInfo(label5.Text);
-                    // Pass the file name without the path.
-                    string name = fInfo.FullName;
-                    aesDecryptFile(name);
-                    MessageBox.Show(name + " was saved to " + DecrFolder);
+                    {
+                        label5.Text = files.First();
+                        // Pass the file name without the path.
+                        FileInfo fi = new FileInfo(label5.Text);
+                        string name = fi.Name;
+                        aesDecryptFile(name);
+                        MessageBox.Show(name + " was decrypted to " + DecrFolder);
+                    }
                 }
                 catch (Exception ex)
                 {

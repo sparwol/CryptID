@@ -459,6 +459,10 @@ namespace Cryptid
             }
         }
 
-       
+        private void compressAndEncryptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormCompress(), sender);
+            labelTitle.Text = "Compress with Encryption";
+        }
     }
 }

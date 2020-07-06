@@ -44,16 +44,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Gill Sans MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(296, 191);
+            this.label1.Location = new System.Drawing.Point(318, 206);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 45);
             this.label1.TabIndex = 0;
             // 
             // richTextBoxPass
             // 
+            this.richTextBoxPass.BackColor = System.Drawing.Color.Gray;
+            this.richTextBoxPass.ForeColor = System.Drawing.Color.Aqua;
             this.richTextBoxPass.Location = new System.Drawing.Point(174, 215);
             this.richTextBoxPass.Name = "richTextBoxPass";
-            this.richTextBoxPass.Size = new System.Drawing.Size(329, 107);
+            this.richTextBoxPass.Size = new System.Drawing.Size(361, 107);
             this.richTextBoxPass.TabIndex = 2;
             this.richTextBoxPass.Text = "";
             // 
@@ -64,7 +66,7 @@
             this.buttonGenPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGenPass.Font = new System.Drawing.Font("Gill Sans MT", 12F);
             this.buttonGenPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonGenPass.Location = new System.Drawing.Point(264, 341);
+            this.buttonGenPass.Location = new System.Drawing.Point(279, 353);
             this.buttonGenPass.MaximumSize = new System.Drawing.Size(200, 60);
             this.buttonGenPass.Name = "buttonGenPass";
             this.buttonGenPass.Size = new System.Drawing.Size(158, 40);
@@ -75,7 +77,9 @@
             // 
             // textPassLength
             // 
-            this.textPassLength.Location = new System.Drawing.Point(332, 124);
+            this.textPassLength.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.textPassLength.ForeColor = System.Drawing.Color.Aqua;
+            this.textPassLength.Location = new System.Drawing.Point(350, 100);
             this.textPassLength.Name = "textPassLength";
             this.textPassLength.Size = new System.Drawing.Size(121, 20);
             this.textPassLength.TabIndex = 24;
@@ -84,8 +88,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Gill Sans MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(209, 122);
+            this.label2.ForeColor = System.Drawing.Color.Olive;
+            this.label2.Location = new System.Drawing.Point(227, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 21);
             this.label2.TabIndex = 25;
@@ -109,7 +113,7 @@
             this.radioButtonSpec.AutoSize = true;
             this.radioButtonSpec.Font = new System.Drawing.Font("Gill Sans MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonSpec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.radioButtonSpec.Location = new System.Drawing.Point(332, 159);
+            this.radioButtonSpec.Location = new System.Drawing.Point(364, 159);
             this.radioButtonSpec.Name = "radioButtonSpec";
             this.radioButtonSpec.Size = new System.Drawing.Size(159, 25);
             this.radioButtonSpec.TabIndex = 27;
@@ -131,7 +135,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(700, 450);
+            this.ClientSize = new System.Drawing.Size(744, 481);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.radioButtonSpec);
             this.Controls.Add(this.radioButtonAlpha);

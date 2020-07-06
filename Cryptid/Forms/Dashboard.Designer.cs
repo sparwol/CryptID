@@ -329,7 +329,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(128, 42);
             this.label3.TabIndex = 30;
-            this.label3.Text = "Encryption Tool\r\nv. 1.0.4";
+            this.label3.Text = "Encryption Tool\r\nv. 1.0.0";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label1
@@ -597,8 +597,9 @@
             // compressAndEncryptToolStripMenuItem
             // 
             this.compressAndEncryptToolStripMenuItem.Name = "compressAndEncryptToolStripMenuItem";
-            this.compressAndEncryptToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.compressAndEncryptToolStripMenuItem.Text = "Compress and Encrypt";
+            this.compressAndEncryptToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.compressAndEncryptToolStripMenuItem.Text = "Compress with encryption";
+            this.compressAndEncryptToolStripMenuItem.Click += new System.EventHandler(this.compressAndEncryptToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -636,6 +637,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Aqua;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

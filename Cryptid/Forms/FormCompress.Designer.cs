@@ -118,8 +118,8 @@
             // 
             // textCompPass
             // 
-            this.textCompPass.BackColor = System.Drawing.Color.Gray;
-            this.textCompPass.ForeColor = System.Drawing.Color.Black;
+            this.textCompPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.textCompPass.ForeColor = System.Drawing.Color.Aqua;
             this.textCompPass.Location = new System.Drawing.Point(284, 111);
             this.textCompPass.Name = "textCompPass";
             this.textCompPass.Size = new System.Drawing.Size(281, 25);

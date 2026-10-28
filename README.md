@@ -115,3 +115,7 @@ CryptID.sln
 src/CryptID/         console app (Program.cs, Crypto/, Cli/, Commands/)
 tests/CryptID.Tests/ xUnit tests: round-trip, wrong-passphrase, tamper detection, generator
 ```
+
+## License
+
+CryptID is source-available under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/): free to use, modify, and share for **noncommercial** purposes. **Commercial use requires a separate paid license** — contact sean@sparwol.com. See [LICENSE](LICENSE).
